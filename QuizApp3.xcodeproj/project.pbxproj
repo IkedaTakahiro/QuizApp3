@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		06504E641C4944470061A7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06504E631C4944470061A7EA /* AppDelegate.swift */; };
-		06504E661C4944470061A7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06504E651C4944470061A7EA /* ViewController.swift */; };
-		06504E691C4944470061A7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06504E671C4944470061A7EA /* Main.storyboard */; };
 		06504E6B1C4944470061A7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06504E6A1C4944470061A7EA /* Assets.xcassets */; };
 		06504E6E1C4944470061A7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06504E6C1C4944470061A7EA /* LaunchScreen.storyboard */; };
+		065052DF1C4944D60061A7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065052DE1C4944D60061A7EA /* Main.storyboard */; };
+		065052E31C4944F70061A7EA /* batu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 065052E01C4944F70061A7EA /* batu.m4a */; };
+		065052E41C4944F70061A7EA /* gazou0.png in Resources */ = {isa = PBXBuildFile; fileRef = 065052E11C4944F70061A7EA /* gazou0.png */; };
+		065052E51C4944F70061A7EA /* maru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 065052E21C4944F70061A7EA /* maru.m4a */; };
+		065052E71C49456A0061A7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065052E61C49456A0061A7EA /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06504E601C4944470061A7EA /* QuizApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06504E631C4944470061A7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06504E651C4944470061A7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06504E681C4944470061A7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06504E6A1C4944470061A7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06504E6D1C4944470061A7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06504E6F1C4944470061A7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065052DE1C4944D60061A7EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		065052E01C4944F70061A7EA /* batu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = batu.m4a; sourceTree = "<group>"; };
+		065052E11C4944F70061A7EA /* gazou0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou0.png; sourceTree = "<group>"; };
+		065052E21C4944F70061A7EA /* maru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = maru.m4a; sourceTree = "<group>"; };
+		065052E61C49456A0061A7EA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				06504E631C4944470061A7EA /* AppDelegate.swift */,
-				06504E651C4944470061A7EA /* ViewController.swift */,
-				06504E671C4944470061A7EA /* Main.storyboard */,
+				065052E61C49456A0061A7EA /* ViewController.swift */,
+				065052DE1C4944D60061A7EA /* Main.storyboard */,
 				06504E6A1C4944470061A7EA /* Assets.xcassets */,
 				06504E6C1C4944470061A7EA /* LaunchScreen.storyboard */,
+				065052E01C4944F70061A7EA /* batu.m4a */,
+				065052E11C4944F70061A7EA /* gazou0.png */,
+				065052E21C4944F70061A7EA /* maru.m4a */,
 				06504E6F1C4944470061A7EA /* Info.plist */,
 			);
 			path = QuizApp3;
@@ -123,8 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06504E6E1C4944470061A7EA /* LaunchScreen.storyboard in Resources */,
+				065052E41C4944F70061A7EA /* gazou0.png in Resources */,
 				06504E6B1C4944470061A7EA /* Assets.xcassets in Resources */,
-				06504E691C4944470061A7EA /* Main.storyboard in Resources */,
+				065052E31C4944F70061A7EA /* batu.m4a in Resources */,
+				065052DF1C4944D60061A7EA /* Main.storyboard in Resources */,
+				065052E51C4944F70061A7EA /* maru.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06504E661C4944470061A7EA /* ViewController.swift in Sources */,
+				065052E71C49456A0061A7EA /* ViewController.swift in Sources */,
 				06504E641C4944470061A7EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		06504E671C4944470061A7EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06504E681C4944470061A7EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06504E6C1C4944470061A7EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +288,7 @@
 				06504E741C4944470061A7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuizApp3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MK6-Ix-h5b">
+                                <rect key="frame" x="232" y="266" width="136" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="Ghu-Fx-KJ2"/>
+                                    <constraint firstAttribute="height" constant="31" id="cHd-Yc-2R1"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gazou0.png" translatesAutoresizingMaskIntoConstraints="NO" id="INW-PS-jZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRu-Tq-6jt">
+                                <rect key="frame" x="265" y="40" width="70" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="IA8-Ir-AjU"/>
+                                    <constraint firstAttribute="height" constant="30" id="dvf-hm-ode"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJp-0U-89C">
+                                <rect key="frame" x="162" y="266" width="70" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="2ga-Gh-FBO"/>
+                                    <constraint firstAttribute="height" constant="30" id="k11-gQ-41e"/>
+                                </constraints>
+                                <state key="normal" title="⭕️"/>
+                                <connections>
+                                    <action selector="mbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTH-cS-7m7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF3-hA-wv4">
+                                <rect key="frame" x="265" y="320" width="70" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EZb-C7-0Wn"/>
+                                    <constraint firstAttribute="width" constant="70" id="Qnl-G0-emB"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fb2-3S-4sl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAY-so-gCK">
+                                <rect key="frame" x="368" y="266" width="70" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="8LA-FA-RHE"/>
+                                    <constraint firstAttribute="height" constant="30" id="9VN-nn-ego"/>
+                                </constraints>
+                                <state key="normal" title="❌"/>
+                                <connections>
+                                    <action selector="bbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fb-kr-BHZ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HYv-lW-Se0">
+                                <rect key="frame" x="50" y="95" width="500" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="AWS-Pn-lsw"/>
+                                    <constraint firstAttribute="width" secondItem="HYv-lW-Se0" secondAttribute="height" multiplier="10:3" id="bIE-jb-GC5"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bIE-jb-GC5"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dF3-hA-wv4" firstAttribute="top" secondItem="HYv-lW-Se0" secondAttribute="bottom" constant="75" id="0ej-PQ-RbY"/>
+                            <constraint firstItem="HYv-lW-Se0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="4BP-Mo-ItU"/>
+                            <constraint firstItem="KAY-so-gCK" firstAttribute="leading" secondItem="MK6-Ix-h5b" secondAttribute="trailing" id="4TH-Ie-Scv"/>
+                            <constraint firstItem="CJp-0U-89C" firstAttribute="top" secondItem="HYv-lW-Se0" secondAttribute="bottom" constant="21" id="7c9-5z-3ca"/>
+                            <constraint firstItem="HYv-lW-Se0" firstAttribute="top" secondItem="oRu-Tq-6jt" secondAttribute="bottom" constant="25" id="86z-lf-ssL"/>
+                            <constraint firstItem="HYv-lW-Se0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8rg-w0-k6w"/>
+                            <constraint firstItem="MK6-Ix-h5b" firstAttribute="centerY" secondItem="CJp-0U-89C" secondAttribute="centerY" id="EMt-Oa-Ewm"/>
+                            <constraint firstItem="MK6-Ix-h5b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="232" id="GEc-s4-GBC"/>
+                            <constraint firstItem="oRu-Tq-6jt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="HvK-gI-S97"/>
+                            <constraint firstItem="KAY-so-gCK" firstAttribute="top" secondItem="HYv-lW-Se0" secondAttribute="bottom" constant="21" id="ICi-0q-7o9"/>
+                            <constraint firstItem="HYv-lW-Se0" firstAttribute="top" secondItem="oRu-Tq-6jt" secondAttribute="bottom" constant="25" id="Jll-TO-hom"/>
+                            <constraint firstItem="MK6-Ix-h5b" firstAttribute="leading" secondItem="CJp-0U-89C" secondAttribute="trailing" id="P2B-o3-m2u"/>
+                            <constraint firstItem="MK6-Ix-h5b" firstAttribute="top" secondItem="CJp-0U-89C" secondAttribute="top" id="Q5B-4U-v1v"/>
+                            <constraint firstItem="dF3-hA-wv4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QjA-Hm-DyM"/>
+                            <constraint firstItem="MK6-Ix-h5b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3I-DL-fGI"/>
+                            <constraint firstAttribute="trailing" secondItem="HYv-lW-Se0" secondAttribute="trailing" constant="50" id="aLT-i4-Qzg"/>
+                            <constraint firstItem="INW-PS-jZ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bK6-HN-wjQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="INW-PS-jZ9" secondAttribute="bottom" id="cTr-SP-eMy"/>
+                            <constraint firstItem="oRu-Tq-6jt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fDU-xr-bxb"/>
+                            <constraint firstItem="INW-PS-jZ9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nag-En-Yad"/>
+                            <constraint firstAttribute="trailing" secondItem="INW-PS-jZ9" secondAttribute="trailing" id="t5D-yn-d42"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dF3-hA-wv4" secondAttribute="bottom" constant="250" id="xRO-V0-h5n"/>
+                            <constraint firstItem="KAY-so-gCK" firstAttribute="top" secondItem="HYv-lW-Se0" secondAttribute="bottom" constant="21" id="xo5-vu-jox"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GEc-s4-GBC"/>
+                                <exclude reference="Q5B-4U-v1v"/>
+                                <exclude reference="ICi-0q-7o9"/>
+                                <exclude reference="xRO-V0-h5n"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bbuttonp" destination="KAY-so-gCK" id="hLk-rD-xbP"/>
+                        <outlet property="daimei" destination="oRu-Tq-6jt" id="iGP-Db-trZ"/>
+                        <outlet property="mbuttonp" destination="CJp-0U-89C" id="KHl-kQ-Ipd"/>
+                        <outlet property="mondaibun" destination="HYv-lW-Se0" id="kBb-Ka-AFB"/>
+                        <outlet property="nextbuttonp" destination="dF3-hA-wv4" id="qy8-va-V3A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="217"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gazou0.png" width="640" height="1136"/>
+    </resources>
+</document>
